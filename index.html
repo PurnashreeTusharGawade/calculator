@@ -4,33 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <style>
-        body
-        {
-            margin:150px;
-            background-color:black;}
-        input
-        {
-            height:100%;
-            width:100%;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        table
-        {
-            padding:10px;
-            border-radius: 10px;
-        }
-    </style>
-    <script>
-        function display(x){
-            document.getElementById("text1").value+=x;
-        }
-        function compute(){
-            var x=document.getElementById("text1").value;
-            document.getElementById("text1").value=eval(x);
-        }
-    </script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="calc.js"></script>
 </head>
 <body>
     <center>
